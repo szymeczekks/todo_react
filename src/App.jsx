@@ -44,7 +44,7 @@ function App() {
   <div className=" bg-white m-2 rounded-lg p-6 text-black max-w-md w-full flex flex-col gap-6">
     <header className="flex gap-24 items-center justify-between">
       <div>
-        <h1 className="font-bold text-xl">Do zrobienia</h1>
+        <h1 className="font-bold text-xl">Do zrobieniaaaa</h1>
         <h2 className="font-semibold">{getSubheading(todos.length)}</h2>
       </div>
       {!isFormShown && <button onClick={() => setIsFormShown(true)} className="bg-cyan-950 rounded-full w-12 text-white text-4xl flex items-baseline justify-center aspect-square">+</button>}
